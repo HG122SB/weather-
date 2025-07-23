@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather 01 </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="weatherlogo.png">
+   
+    
+</head>
+<body>
+    <div class="container">
+       <div>
+
+                <h1 id="heading"> WEATHER MANAGER <img src="weatherlogo.png" alt="weatherimg" style="width:60px; height:70px;">
+                </h1>
+                 <br/>
+              <input type="text" name="" placeholder="search city " id="city-input">
+              <br/>
+              <input type="button" onclick="searchCity()" value="Search 🔍︎ " >
+       </div>
+       <div class= "result">
+                <h2 id="city-name">    </h2>
+                </div>
+             <h1 id="weather-type">--------</h1>
+                <div>
+
+        <h3>  🌡  Temp: <span0 id="temp"></span><span> °F</span></h3>
+        <h3>  ☁  Min Temp:<span1 id="min-temp"></span> °F</h3>
+        <h3>  ☀  Max Temp:<span2 id="max-temp"></span> °F</h3>
+        <h3>  ༄   Wind speed:<span3 id="wind"></span>-m/s</h3>
+        <h3>  🡩  Longitude:<span4 id="long"></span></h3>
+       <h3>   🡫  Attitude:<span5 id="att"></span></h3>
+
+       </div>
+
+      </div>
+     </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
